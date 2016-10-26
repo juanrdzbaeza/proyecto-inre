@@ -1,0 +1,140 @@
+%\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,12pt,twoside,openright,titlepage]{article}
+
+\usepackage[a4paper]{geometry}
+
+\geometry{top=2.8cm, bottom=2cm, left=2.8cm, right=2.8cm, bindingoffset=1.5cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}  %Modify according your language
+
+
+\decimalpoint
+
+\makeatletter
+\addto\shorthandsspanish{\let\esperiod\es@period@code}
+\makeatother
+
+
+\RequirePackage{verbatim}
+
+ \usepackage{float}  % Para definir las tablas relativas a los tipos de requisitos
+
+\usepackage{makeidx}         % allows index generation
+
+\usepackage{graphicx}
+\graphicspath{{Figures/}}
+
+
+\usepackage{color}  
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+
+% ********************************************************************
+% Re-usable information
+%********************************************************************
+
+%Debería de ser sustituido por la etiqueda dada al entregable
+\newcommand {\tipoDoc} {Nombre del entregable}
+%\newcommand {\tipoDoc} {Deliverable name}
+\newcommand{\asignatura}{Ingeniería de los requisitos}  
+%\newcommand{\asignatura}{Requirements Engineering}
+\newcommand{\equipo}{Illuminatis 3.0}
+%\newcommand{\equipo}{Team Id}
+\newcommand{\primerAl}{Aitor García Luiz }
+%\newcommand{\primerAl}{Name Surname}
+\newcommand{\segunAl}{Juan Antonio Pérez Clemente }
+\newcommand{\tercerAl}{Juan Antonio Rodríguez Baeza }
+
+
+
+
+%\hyphenation{}
+
+
+
+%%%% Definición de las cabeceras
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[LE]{ \textbf{\thepage} \ \ \ Equipo: \equipo   }
+%\fancyhead[LE]{ \textbf{\thepage} \ \ \ Team: \equipo   }
+\fancyhead[RO]{ Equipo: \equipo  \ \ \ \textbf{\thepage}}
+%\fancyhead[RO]{ Team: \equipo  \ \ \ \textbf{\thepage}}
+\fancyhead[LO]{\includegraphics[width=0.15\textwidth]{Cabecera/imagenes/inre.png} \miProyecto  }
+\fancyhead[RE]{\miProyecto \includegraphics[width=0.15\textwidth]{Cabecera/imagenes/inre.png}   }
+
+\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}}
+
+\setlength{\headheight}{2\headheight}
+
+
+%%% Definiciones de nuevos  tipos
+%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+%\newcommand{\bigrule}{\titlerule[0.5mm]}
+
+
+\newenvironment{textoazul}{\color{blue}}{\color{black}}   %Pendiente de revisar
+
+\usepackage{tabulary}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}} %Para tablas centradas dado ancho
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\definecolor{gray30}{gray}{.94}
+
+
+
+
+%Para conseguir que en las páginas en blanco no ponga cabeceras
+\makeatletter
+\def\clearpage{%
+  \ifvmode
+    \ifnum \@dbltopnum =\m@ne
+      \ifdim \pagetotal <\topskip
+        \hbox{}
+      \fi
+    \fi
+  \fi
+  \newpage
+  \thispagestyle{empty}
+  \write\m@ne{}
+  \vbox{}
+  \penalty -\@Mi
+}
+\makeatother
+
+\makeindex
+
+
+
+
+\begin{document}
+
+\input{Cabecera/portada}
+
+\clearpage
+\newcommand{\folder}{camino}  %para que el resto sean una redefinición
+
+%Entregable simple --  Easy Assignment
+%\renewcommand{\folder}{Simple}
+%\input{\folder/texto}
+
+%Entregable con hoja de revisión - Assignment with review sheet
+
+%\renewcommand{\folder}{Entregablegenerico}
+%\input{\folder/texto}
+
+%Especificacion de los requisitos del software - Software requirement specification
+\renewcommand{\folder}{SRS}
+\input{\folder/texto}
+
+\end{document}
