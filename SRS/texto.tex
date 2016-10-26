@@ -1,0 +1,65 @@
+\input{Cabecera/prefacio}
+\newcommand{\fig}{SRS/Figuras}
+
+
+
+
+% ********************************************************************
+% Re-usable information
+%********************************************************************
+
+\renewcommand {\tipoDoc} {Especificación de los requisitos del software}
+%\newcommand {\tipoDoc} {Software Requirements Specification}
+\newcommand {\miProyecto} {Nombre e Id del proyecto}
+%\newcommand {\miProyecto} {project name and Id}
+
+
+%\hyphenation{}
+
+
+
+%%%% Definición de las cabeceras
+
+%\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[LE]{ \textbf{\thepage} \ \ \ Equipo: \equipo   }
+%\fancyhead[LE]{ \textbf{\thepage} \ \ \ Team: \equipo   }
+\fancyhead[RO]{ Equipo: \equipo  \ \ \ \textbf{\thepage}}
+%\fancyhead[RO]{ Team: \equipo  \ \ \ \textbf{\thepage}}
+\fancyhead[LO]{\includegraphics[width=0.15\textwidth]{Cabecera/imagenes/inre.png} \miProyecto  }
+\fancyhead[RE]{\miProyecto \includegraphics[width=0.15\textwidth]{Cabecera/imagenes/inre.png}   }
+
+\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}}
+
+\setlength{\headheight}{2\headheight}
+
+
+
+
+\input{\folder/srs}   %definición de artefactos y similares
+
+%TEXTO PROPIAMENTE DICHO
+
+\input{\folder/Portada/portada}
+
+\input{\folder/Portada/prefacio}
+
+\clearpage
+
+\input{\folder/Apartados/introduccion}
+\input{\folder/Apartados/dominio}
+\input{\folder/Apartados/actual}
+\input{\folder/Apartados/necesidades}
+\input{\folder/Apartados/subsistemas}
+\input{\folder/Apartados/requisitos}
+
+\section*{Apéndices}
+\addcontentsline{toc}{section}{Apéndices}
+%\addcontentsline{toc}{section}{Appendices}
+\input{\folder/Apartados/anexo}
+
+
+
