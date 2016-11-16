@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.9)  26 OCT 2016 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.19)  9 NOV 2016 10:32
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,21 +21,21 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -51,20 +51,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -301,7 +301,7 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -342,7 +342,7 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -366,20 +366,20 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen111
@@ -391,13 +391,13 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks19
 \verbatim@line=\toks20
 \verbatim@in@stream=\read1
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count92
 \float@exts=\toks21
@@ -405,30 +405,30 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box27
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count93
@@ -436,26 +436,26 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
@@ -478,10 +478,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen116
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
@@ -493,7 +493,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\tabulary\tabulary.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tabulary\tabulary.sty"
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \TY@count=\count95
 \TY@linewidth=\dimen117
@@ -516,18 +516,18 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -564,9 +564,9 @@ LaTeX Font Info:    ... okay on input line 120.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen121
@@ -579,11 +579,11 @@ LaTeX Info: Redefining \% on input line 120.
 \MPnumerator=\count100
 \makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks26
-) ("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -592,21 +592,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)) ("D:\Archivos de Programa D\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("D:\Archivos de Programa D\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -714,7 +715,7 @@ Underfull \vbox (badness 1158) has occurred while \output is active []
 File: Cabecera/imagenes/inre.png Graphic file (type png)
 
 <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 79.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 81.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [4 <./Cabecera/imagenes/inre.png>])
 (SRS/Apartados/introduccion.tex) (SRS/Apartados/dominio.tex)
@@ -896,65 +897,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--106
 []|$\OML/cmm/m/it/12 < comentariosadicionalessobreelactordenegocioa$
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 121.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]|\OT1/cmr/m/n/12 Secuencia nor-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
 File: Cabecera/imagenes/inre.png Graphic file (type png)
 
 <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 187.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 149.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [14 <./SRS/Figuras/casos.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: Cabecera/imagenes/inre.png Graphic file (type png)
-
-<use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 201.
-(pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
- [15]
-<SRS/Figuras/datos.jpg, id=73, 1366.10374pt x 631.35875pt>
+<SRS/Figuras/datos.jpg, id=70, 1366.10374pt x 631.35875pt>
 File: SRS/Figuras/datos.jpg Graphic file (type jpg)
 
 <use SRS/Figuras/datos.jpg>
-Package pdftex.def Info: SRS/Figuras/datos.jpg used on input line 212.
+Package pdftex.def Info: SRS/Figuras/datos.jpg used on input line 189.
 (pdftex.def)             Requested size: 316.39572pt x 146.221pt.
 
-Overfull \hbox (12.7906pt too wide) in paragraph at lines 288--290
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Cabecera/imagenes/inre.png Graphic file (type png)
+
+<use Cabecera/imagenes/inre.png>
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 192.
+(pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
+ [15]
+File: Cabecera/imagenes/inre.png Graphic file (type png)
+ <use Cabecera/imagenes/inre.png>
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 245.
+(pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
+ [16 <./SRS/Figuras/datos.jpg>]
+Overfull \hbox (12.7906pt too wide) in paragraph at lines 267--269
 []|\OT1/cmr/m/n/12 El sis-te-ma de-bera $\OML/cmm/m/it/12 < descripcionnofunci
 onaldelsistema >$| 
  []
 
-File: Cabecera/imagenes/inre.png Graphic file (type png)
-<use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 314.
-(pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
- [16 <./SRS/Figuras/datos.jpg>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: Cabecera/imagenes/inre.png Graphic file (type png)
 
 <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 385.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 364.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [17]
-Underfull \hbox (badness 2671) in paragraph at lines 413--415
+Underfull \hbox (badness 2671) in paragraph at lines 392--394
 []|\OT1/cmr/m/n/12 El sis-te-ma de-bera uti-li-zar el ser-vi-cio, com-po-nen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 \OT1/cmr/m/n/12 te soft-wa-re $\OML/cmm/m/it/12 < nombredelelementoaintegrar >$
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 \OT1/cmr/m/n/12 pa-ra aque-llos as-pec-tos re-la-cio-na-dos con $\OML/cmm/m/it/
 12 <
  []
@@ -965,41 +966,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: Cabecera/imagenes/inre.png Graphic file (type png)
 
 <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 439.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 418.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [18]
 File: Cabecera/imagenes/inre.png Graphic file (type png)
  <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 454.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 433.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [19])
 (SRS/Apartados/anexo.tex))
 File: Cabecera/imagenes/inre.png Graphic file (type png)
  <use Cabecera/imagenes/inre.png>
-Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 140.
+Package pdftex.def Info: Cabecera/imagenes/inre.png used on input line 141.
 (pdftex.def)             Requested size: 59.32155pt x 34.17088pt.
  [20] (main.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4209 strings out of 493334
- 55876 string characters out of 3135376
- 141582 words of memory out of 3000000
- 7604 multiletter control sequences out of 15000+200000
- 9449 words of font info for 33 fonts, out of 3000000 for 9000
+ 4249 strings out of 493334
+ 55545 string characters out of 3139251
+ 141625 words of memory out of 3000000
+ 7641 multiletter control sequences out of 15000+200000
+ 9271 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,43p,590b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc1
-0.pfb><D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb><D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-8.pfb><D:/Archivos de Programa D/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on main.pdf (22 pages, 1280666 bytes).
+ 41i,15n,43p,590b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (22 pages, 1291116 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
