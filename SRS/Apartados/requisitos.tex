@@ -116,78 +116,55 @@ Los requisitos generales puede que ya se encuentren alineados con los objetivos 
 
 
  
+<id>999	<nombre descriptivo>
+[Versión]	<nº versión>(<fecha de versión>)
+[Dependencias]	•	<requisitos generales del sistemas de los que depende>
+•	<lista de casos de uso que invoca>
+•	<otros requisitos de los que depende>
+•	...
+Precondición	<precondición del caso de uso del sistema>
+Descripción	El sistema deberá comportarse como se describe en el siguiente caso de uso [abstracto] cuando {<evento de activación>, sea necesario para la realización de otros caso de uso}.
+Secuencia Normal	Paso	Acción
+	1	{El actor <actor del sistema>, El sistema}<acción/es realizada/s por el actor del sistema>
+	2	Se realiza el <caso de uso del sistema>
+	3	Si <condición>,
+		...	...
+		3.n.	{El caso de uso termina con éxito,Se cancela el caso de uso}
+	...	...
+Postcondición	<postcondición del caso de uso del sistema>
+Excepciones	Paso	Acción
+	P	Si <condición de excepción>
+		…	
+		E.m	{El caso de uso continua,Se cancela el caso de uso}
+	…	...
+Rendimiento	Paso	Cota de tiempo
+	q	k<unidad de tiempo>
+	…	...
+Frecuencia	<nº veces / unidad de tiempo>
+[Importancia]	<importancia del caso de uso para el cliente>
+[Prioridad]	<prioridad del caso de uso para la dirección del proyecto>
+[Estado]	<estado del caso de uso según el ciclo de vida adoptado por el proyecto>
+Comentarios	<comentarios adicionales sobre el caso de uso del sistema>
+Tabla 12: Plantillla Completa de Casos de Uso.
 
 
-\begin{Artefacto}[H]
-    \centering
-    \begin{tabular}{|p{3cm}|p{10cm}|}
-        \hline
-         \cellcolor{gray30}  CDU-999	&  $<nombre descriptivo>$\\ 
-%      \cellcolor{gray30}  REQ-GEN 999	& <descriptive name>\\   
-        \hline
-         \cellcolor{gray30}  [Versión]	&  $<num version(fecha de version>$)\\   
-%      \cellcolor{gray30}  [Version]	&   $<num version>$($<date>$)\\   
-         \hline
-         \cellcolor{gray30}  [Dependencias] &  	\begin{itemize} 	\item $<requisitos generales de los que depende>$
-\item $<otros requisitos generales de los que dependa>$
-\item	... \end{itemize}\\  
-%                 \cellcolor{gray30}  [Dependencies] &  	\begin{itemize} \item requirement
-%\item	... \end{itemize}\\            
-        \hline
-         \cellcolor{gray30} Descripción	&El sistema deberá comportarse tal como se indica en la siguiente especificación del caso de uso\\
-%      \cellcolor{gray30}   Description	& descrip\\   
-\hline
-          
-         \cellcolor{gray30}  Secuencia normal&  	
-         \begin{enumerate} 	
-             \item	{El actor $<$actor del sistema$>$, El sistema}<acción/es realizada/s por el actor del sistema>
-			\item	Se realiza el $<$caso de uso del sistema$>$
-			\item	Si <condición>,
-            ...	...
-            \begin{enumerate}
-		       \item El caso de uso termina con éxito,Se cancela el caso de uso
-               \item
-       
-        	\end{enumerate}
-	...	...\item paso 
-													
-       \item	... \end{enumerate}\\  
-
-\hline          
-  \cellcolor{gray30} Postcondición	& postcondición del caso de uso del sistema \\
-  \hline
- \cellcolor{gray30}  Excepciones&
- \begin{itemize} 	        
-			\item	$<$PASO m$>$	Si $<$condición de excepción$>$
-            \begin {enumerate}
-            \item 	{El caso de uso continua,Se cancela el caso de uso}
-            \item
-            \end{enumerate}
-            \item	$<$PASO n$>$: 
- \end{itemize}\\ 
-\hline
-        \hline          
-           \cellcolor{gray30}[Importancia]	& $<importancia del requisito para el cliente>$  \\
-%      \cellcolor{gray30}   Importance 	& descrip\\   
-         \hline
-         \cellcolor{gray30}  [Prioridad] &  	$<prioridad del requisito para la direccion del proyecto>$\\
-%                 \cellcolor{gray30}  [Priority] &   	\\  
-         \hline
-         \cellcolor{gray30}  Estado	&$<estado  segun el ciclo de vida adoptado por el proyecto>>$\\   
-%         \cellcolor{gray30} State	&$<state according the lifecicle>$
-        \hline       
-         \cellcolor{gray30}  Comentarios	& $<comentarios adicionales>$ \\   
-%         \cellcolor{gray30} Comments	&$<additional comments>$
-        \hline
-  
-    \end{tabular}
-\caption{CDU 999	$<nombre descriptivo>$ }
-%\caption{CDU 999	$<descriptive name >$ }
-  \end{Artefacto}
-
-
-
-
+\begin{tabular}{|l|l|l|l|}\hline
+  \multirow{10}{*}{numeric literals} & \multirow{5}{*}{integers} & in decimal & \verb|8743| \\ \cline{3-4}
+  & & \multirow{2}{*}{in octal} & \verb|0o7464| \\ \cline{4-4}
+  & & & \verb|0O103| \\ \cline{3-4}
+  & & \multirow{2}{*}{in hexadecimal} & \verb|0x5A0FF| \\ \cline{4-4}
+  & & & \verb|0xE0F2| \\ \cline{2-4}
+  & \multirow{5}{*}{fractionals} & \multirow{5}{*}{in decimal} & \verb|140.58| \\ \cline{4-4}
+  & & & \verb|8.04e7| \\ \cline{4-4}
+  & & & \verb|0.347E+12| \\ \cline{4-4}
+  & & & \verb|5.47E-12| \\ \cline{4-4}
+  & & & \verb|47e22| \\ \cline{1-4}
+  \multicolumn{3}{|l|}{\multirow{3}{*}{char literals}} & \verb|'H'| \\ \cline{4-4}
+  & & & \verb|'\n'| \\ \cline{4-4}
+  & & & \verb|'\x65'| \\ \cline{1-4}
+  \multicolumn{3}{|l|}{\multirow{2}{*}{string literals}} & \verb|"bom dia"| \\ \cline{4-4}
+  & & & \verb|"ouro preto\nmg"| \\ \cline{1-4}
+\end{tabular}
 
 
 
@@ -214,55 +191,57 @@ Esta sección debe contener los requisitos funcionales del sistema que se hayan 
  \end{figure}
  
 
+<id>999	<nombre descriptivo>
+[Versión]	<nº versión>(<fecha de versión>)
+[Dependencias]	•	<requisitos generales de los que depende>
+•	<otros requisitos de los que depende>
+•	...
+Descripción	El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto:
+Datos específicos	•	<datos específicos sobre el concepto relevante>
+•	...
+[Importancia]	<importancia del requisito para el cliente>
+[Prioridad]	<prioridad del requisito para la dirección del proyecto>
+[Estado]	<estado del requisito según el ciclo de vida adoptado por el proyecto>
+Comentarios	<comentarios adicionales sobre el requisito de información>
+Tabla 13: Requisitos de información.
+Los atributos entre corchetes son opcionales
 
 
-\begin{Artefacto}[H]
-    \centering
-    \begin{tabular}{|p{3cm}|p{10cm}|}
-        \hline
-         \cellcolor{gray30}  REQ-GEN 999	&  $<nombre descriptivo>$\\ 
-%      \cellcolor{gray30}  REQ-GEN 999	& <descriptive name>\\   
-        \hline
-         \cellcolor{gray30}  [Versión]	&  $<num version(fecha de version>$)\\   
-%      \cellcolor{gray30}  [Version]	&   $<num version>$($<date>$)\\   
-         \hline
-         \cellcolor{gray30}  [Dependencias] &  	\begin{itemize} 	\item $<requisitos generales de los que depende>$
-\item $<otros requisitos generales de los que dependa>$
-\item	... \end{itemize}\\  
-%                 \cellcolor{gray30}  [Dependencies] &  	\begin{itemize} \item requirement
-%\item	... \end{itemize}\\            
-        \hline
-         \cellcolor{gray30} Descripción	&El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto:\\
-%      \cellcolor{gray30}   Description	& descrip\\   
-          \hline
-         \cellcolor{gray30}  Datos específicos&  	\begin{itemize} 	\item dato: tipo
-                                                                                           \item 
-																	\item	... \end{itemize}\\  
-%                 \cellcolor{gray30}  [Dependencies] &  	\begin{itemize} \item requirement
-%\item	... \end{itemize}\\            
-        \hline          
-           \cellcolor{gray30}[Importancia]	& $<importancia del requisito para el cliente>$  \\
-%      \cellcolor{gray30}   Importance 	& descrip\\   
-         \hline
-         \cellcolor{gray30}  [Prioridad] &  	$<prioridad del requisito para la direccion del proyecto>$\\
-%                 \cellcolor{gray30}  [Priority] &   	\\  
-         \hline
-         \cellcolor{gray30}  Estado	&$<estado  segun el ciclo de vida adoptado por el proyecto>>$\\   
-%         \cellcolor{gray30} State	&$<state according the lifecicle>$
-        \hline       
-         \cellcolor{gray30}  Comentarios	& $<comentarios adicionales>$ \\   
-%         \cellcolor{gray30} Comments	&$<additional comments>$
-        \hline
-  
-    \end{tabular}
-\caption{REQ-INF 999	$<nombre descriptivo>$ }
-%\caption{REQ-INF 999	$<descriptive name >$ }
-  \end{Artefacto}
+\subsubsection{Requisitos de Reglas de Negocio del Sistema}
+
+<Introduzca contenido, cumplimente tabla y borre cuadro>
+ 
+<id>999	<nombre descriptivo>
+[Versión]	<nº versión>(<fecha de versión>)
+[Dependencias]	•	<requisitos generales de los que depende>
+•	<otros requisitos de los que depende>
+•	...
+Descripción	El sistema deberá respetar la siguiente regla de negocio:<descripción de la regla de negocio del sistema>
+[Importancia]	<importancia del requisito para el cliente>
+[Prioridad]	<prioridad del requisito para la dirección del proyecto>
+[Estado]	<estado del requisito según el ciclo de vida adoptado por el proyecto>
+Comentarios	<comentarios adicionales sobre el requisito>
+Tabla 14: Requisitos de reglas de negocio.
+Los atributos entre corchetes son opcionales
 
 
+\subsubsection{Requisitos de Conducta del Sistema}
+<Introduzca contenido, cumplimente tabla y borre cuadro>
+ 
 
-
-
+<id>999	<nombre descriptivo>
+[Versión]	<nº versión>(<fecha de versión>)
+[Dependencias]	•	<requisitos generales de los que depende>
+•	<otros requisitos de los que depende>
+•	...
+Descripción	El sistema deberá <descripción de conducta del sistema>[,cuando <evento de activación>]
+Interfaz de Servicio	{Sí,No}
+[Importancia]	<importancia del requisito para el cliente>
+[Prioridad]	<prioridad del requisito para la dirección del proyecto>
+[Estado]	<estado del requisito según el ciclo de vida adoptado por el proyecto>
+Comentarios	<comentarios adicionales sobre el requisito>
+Tabla 15: Requisitos de conducta.
+Los atributos entre corchetes son opcionales
 
 \subsection{Requisitos No Funcionales del Sistema}
 

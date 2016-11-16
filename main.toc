@@ -23,9 +23,11 @@
 \contentsline {subsection}{\numberline {6.2}Casos de uso del Sistema}{13}
 \contentsline {subsubsection}{\numberline {6.2.1}Diagramas de Casos de Uso del Sistema}{14}
 \contentsline {subsubsection}{\numberline {6.2.2}Especificaci\IeC {\'o}n de Actores del Sistema}{14}
-\contentsline {subsubsection}{\numberline {6.2.3}Especificaci\IeC {\'o}n de Casos de Uso del Sistema}{15}
-\contentsline {subsection}{\numberline {6.3}Requisitos Funcionales del Sistema}{16}
-\contentsline {subsubsection}{\numberline {6.3.1}Requisitos de Informaci\IeC {\'o}n del Sistema}{16}
+\contentsline {subsubsection}{\numberline {6.2.3}Especificaci\IeC {\'o}n de Casos de Uso del Sistema}{14}
+\contentsline {subsection}{\numberline {6.3}Requisitos Funcionales del Sistema}{15}
+\contentsline {subsubsection}{\numberline {6.3.1}Requisitos de Informaci\IeC {\'o}n del Sistema}{15}
+\contentsline {subsubsection}{\numberline {6.3.2}Requisitos de Reglas de Negocio del Sistema}{16}
+\contentsline {subsubsection}{\numberline {6.3.3}Requisitos de Conducta del Sistema}{16}
 \contentsline {subsection}{\numberline {6.4}Requisitos No Funcionales del Sistema}{17}
 \contentsline {subsubsection}{\numberline {6.4.1}Requisitos de Fiabilidad}{18}
 \contentsline {subsubsection}{\numberline {6.4.2}Requisitos de Usabilidad}{18}
